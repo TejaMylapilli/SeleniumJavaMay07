@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T22:21:01 IST" name="Suite" finished-at="2023-05-06T22:21:41 IST" duration-ms="39839">
+    <groups>
+    </groups>
+    <test started-at="2023-05-06T22:21:01 IST" name="Test" finished-at="2023-05-06T22:21:41 IST" duration-ms="39839">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="prerequesties()[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:01 IST" name="prerequesties" finished-at="2023-05-06T22:21:09 IST" duration-ms="7810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequesties -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:09 IST" name="login" data-provider="getLoginData" finished-at="2023-05-06T22:21:15 IST" duration-ms="6016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation535541@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teja@444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:15 IST" name="teardown" finished-at="2023-05-06T22:21:17 IST" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="prerequesties()[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:17 IST" name="prerequesties" finished-at="2023-05-06T22:21:23 IST" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequesties -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:23 IST" name="login" data-provider="getLoginData" finished-at="2023-05-06T22:21:39 IST" duration-ms="15537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trhh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tejhdh6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@3e8c3cb]" started-at="2023-05-06T22:21:39 IST" name="teardown" finished-at="2023-05-06T22:21:41 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ThreeTest">
+        <test-method signature="testThree()[pri:0, instance:tests.ThreeTest@2af004b]" started-at="2023-05-06T22:21:01 IST" name="testThree" finished-at="2023-05-06T22:21:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- tests.ThreeTest -->
+      <class name="tests.TwoTest">
+        <test-method signature="testTwo()[pri:0, instance:tests.TwoTest@449a4f23]" started-at="2023-05-06T22:21:01 IST" name="testTwo" finished-at="2023-05-06T22:21:01 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
